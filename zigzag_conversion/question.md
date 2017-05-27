@@ -8,3 +8,12 @@ Write the code that will take a string and make this conversion given a number o
 
 string convert(string text, int nRows);
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+
+patten:
+
+ 0                                   2* (n -1)
+ 1                     2* (n -1) -1  2* (n -1) + 1
+ 2              2* (n -1) - 2        2* (n -1) + 2
+ 3     2* (n -1) - 3                 2* (n -1) + 3
+ .....
+ n-1                                 2* (n -1) + n-1
